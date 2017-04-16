@@ -26,7 +26,6 @@ void generateGrid(Field grid[][9], int numFields, char *gameName){
             if(rowCheckField(grid,x,y) && culCheckField(grid,x,y) && squareCheckField(grid,x,y)){
                 filled++;
             }else{
-                printf("kicked\n");
                 grid[y][x].value = 0;
             }
         }

@@ -38,7 +38,7 @@ int main(void)
 
 void generateScreen(Field grid[][9],int *X, int *Y, time_t begin, bool *fixed){
     // Das aktuelle Rätsel ausgeben
-    //system("clear");
+    system("clear");
     //clear();
     renderInt(grid,*X,*Y);
 
