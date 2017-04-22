@@ -20,7 +20,6 @@ void render(Field grid[][9] ,int X, int Y);
 void renderInt(Field grid[][9] ,int X, int Y);
 
 bool readGrid(Field grid[][9]);
-bool readGridWithFile(Field grid[][9], FILE *myFile);
 char* itoa(int value, char* result, int base);
 bool insertValue(Field grid[][9], int value, int X, int Y);
 bool isfixed(Field grid[][9], int X, int Y);
